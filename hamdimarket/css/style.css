@@ -1,0 +1,143 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color: purple;
+    color: aliceblue;
+    position: sticky;
+    top:10px;
+    width: calc(100%-50px);
+    height: 30px;
+    font-size: 25px;
+    border-radius: 20px 20px 20px 0px;
+    padding: 20px;
+    padding-left:85px;
+    margin-bottom: 0px;
+}
+.hamburger{
+    transition: 0.2s;
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    top: 22px;
+    left:20px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 15px;
+}
+.hamburger:hover{
+    background-color:rgba(0,0,0,0.1);
+}
+svg{
+    height: 35px;
+}
+.icerik{
+    width: calc(100% - 100px);
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+    height: 700px;
+}
+.main{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 700px;
+}
+.price{
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 700px;
+}
+.locate{
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 700px;
+}
+.communicate{
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 700px;
+}
+.side{
+    transition: 1s;
+    width: 85px;
+    border-radius: 0 0 20px 20px;
+    height: calc(100% - 100px);
+    position: fixed;
+    top:78px;
+    background-color: purple;
+}
+.closhamburger{
+    display: none;
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    left:300px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 15px;   
+}
+.closhamburger:hover{
+    background-color:rgba(0,0,0,0.1);
+}
+.sidebutton{
+    transition: 0.2s;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 15px;
+}
+.sidebutton:hover{
+    background-color:rgba(0,0,0,0.1);
+}
+#sidemain{
+    display: none;
+    padding-top: 10px;
+    Color: white;
+    height: 40px;
+    width: 180px;
+    position: fixed;
+    left: 100px;
+    top: 80px;
+}
+#sideprices{
+    display: none;
+    padding-top: 10px;
+    Color: white;
+    height: 40px;
+    width: 180px;
+    position: fixed;
+    left: 100px;
+    top: 140px;
+}
+#sidelocate{
+    display: none;
+    padding-top: 10px;
+    Color: white;
+    height: 40px;
+    width: 180px;
+    position: fixed;
+    left: 100px;
+    top: 200px;
+}
+#sidecommunicate{
+    display: none;
+    padding-top: 10px;
+    Color: white;
+    height: 40px;
+    width: 180px;
+    position: fixed;
+    left: 100px;
+    top: 260px;
+}
